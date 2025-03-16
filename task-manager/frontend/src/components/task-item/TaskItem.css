@@ -1,0 +1,43 @@
+.task-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+.task-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.status.todo {
+  background: #f0ad4e;
+  color: white;
+}
+
+.status.in-progress {
+  background: #5bc0de;
+  color: white;
+}
+
+.status.done {
+  background: #5cb85c;
+  color: white;
+}
+
+.task-date {
+  font-size: 0.8em;
+  color: #666;
+}
