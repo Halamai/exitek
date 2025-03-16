@@ -1,0 +1,31 @@
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.edit-task-btn,
+.delete-task-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.edit-task-btn {
+  color: #007bff;
+}
+
+.edit-task-btn:hover {
+  text-decoration: underline;
+}
+
+.delete-task-btn {
+  color: red;
+}
+
+.delete-task-btn:hover {
+  text-decoration: underline;
+}
